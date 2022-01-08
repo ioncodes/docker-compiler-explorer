@@ -37,4 +37,4 @@ RUN cd /opt/compiler-explorer && npm install
 
 ENV PATH="/root/.cargo/bin:$PATH"
 WORKDIR /opt/compiler-explorer
-ENTRYPOINT [ "make", "dev" ]
+ENTRYPOINT [ "make" ]
