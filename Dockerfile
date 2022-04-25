@@ -25,6 +25,7 @@ RUN ./llvm.sh 10
 RUN ./llvm.sh 11
 RUN ./llvm.sh 12
 RUN ./llvm.sh 13
+RUN ./llvm.sh 14
 
 # Install Rust
 RUN curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y
